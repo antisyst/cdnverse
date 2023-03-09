@@ -1,0 +1,117 @@
+@import url(../../global.scss);
+
+.top-content-navigation-params-prototype-element {
+    background: var(--var-color-component-prototype-element-advanced);
+    padding: 5px 5%;
+    z-index: 100;
+}
+.top-content-navigation-params-prototype-element nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.import-top-content-navigation-params-prototype-element {
+    z-index: 100;
+}
+.top-content-navigation-params-prototype-element-nav-item svg {
+    width: 210px;
+    transition: all 0.4s ease-out;
+};
+.top-content-navigation-params-prototype-element-nav-item svg:hover {
+    opacity: 0.9;
+    transition: all 0.4s ease-out;
+}
+.top-content-navigation-params-prototype-element-nav-item_2 a {
+    text-decoration: none;
+    font-size: calc(10px + 1.7vmin);
+    margin: 2px 27px;
+    transition: all 0.4s ease-out;
+    font-family: 'Tilt Warp', cursive;
+    font-weight: bold;
+    border-bottom: 2px solid var(--var-color-component-prototype-element-advanced);
+    color: var(--var-color-component-prototype-element-secondary);
+    user-select: none;
+}
+.top-content-navigation-params-prototype-element-nav-item_2 a:hover {
+    border-bottom: 2px solid var(--var-color-component-prototype-element-secondary);
+}
+.top-content-navigation-params-prototype-element-nav-item_2 a:active {
+    border-bottom: 2px solid var(--var-color-component-prototype-element-secondary);
+}
+.top-content-navigation-params-prototype-element-nav-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+.import-top-content-navigation-params-prototype-element {
+    position: fixed;
+    top: 0;
+    overflow: hidden;
+    width: 100%;
+}
+
+
+.progress-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 5px;
+    background: var(--var-color-component-prototype-element-third);
+    transform-origin: 0%;
+    margin-top: 80px;
+    animation: progressFrame 10s ease 0s infinite normal forwards;
+  }
+  @keyframes progressFrame {
+	0%,
+	50%,
+	100% {
+		background: var(--var-color-component-prototype-element-third);
+	}
+
+	25%,
+	75% {
+		background: var(--var-gradient-component-1);
+	}
+}
+
+@media only screen and (max-width: 700px) {
+    .top-content-navigation-params-prototype-element {
+        background: var(--var-color-component-prototype-element-advanced);
+        padding: 5px 5%;
+        z-index: 100;
+        height: 70px;
+        overflow: hidden;
+    }
+    .top-content-navigation-params-prototype-element-nav-item svg {
+        width: 150px;
+        transition: all 0.4s ease-out;
+        cursor: none;
+    };
+    .top-content-navigation-params-prototype-element-nav-item_2 a {
+        text-decoration: none;
+        font-size: calc(10px + 1.7vmin);
+        margin: 3px 20px;
+        transition: all 0.4s ease-out;
+        font-family: 'Tilt Warp', cursive;
+        font-weight: bold;
+        border-bottom: 2px solid var(--var-color-component-prototype-element-advanced);
+        color: var(--var-color-component-prototype-element-secondary);
+        user-select: none;
+        cursor: none;
+    }
+    .progress-bar {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 5px;
+        background: var(--var-color-component-prototype-element-third);
+        transform-origin: 0%;
+        margin-top: 74px;
+        animation: progressFrame 10s ease 0s infinite normal forwards;
+      }
+}

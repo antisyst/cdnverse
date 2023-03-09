@@ -1,0 +1,31 @@
+@import url(../../global.scss);
+
+.api-first-showcase-medium-coming-prototype-element {
+    background: var(--var-color-component-prototype-element-advanced);
+    height: 91.3vh;
+    border-top: 2px solid var(--var-color-component-prototype-element-third);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.api-first-showcase-medium-coming-prototype-element div svg {
+    color: var(--var-color-component-prototype-element-secondary);
+    font-size: 300px;
+    color: var(--var-color-component-prototype-element-third);
+}
+.api-first-showcase-medium-coming-prototype-element div h1 {
+    color: var(--var-color-component-prototype-element-secondary);
+    font-family: 'Tilt Warp', cursive;
+    font-size: calc(10px + 4vmin);
+    margin-top: -15px;
+}
+.api-first-showcase-medium-coming-prototype-element div h2 {
+    color: var(--var-color-component-prototype-element-secondary);
+    font-weight: bold;
+    font-family: 'Lexend', sans-serif;
+    font-size: calc(10px + 4vmin);
+    text-align: center;
+    margin-top: -15px;
+}
